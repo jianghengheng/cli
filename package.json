@@ -1,0 +1,26 @@
+{
+  "name": "jh-cli",
+  "version": "1.0.0",
+  "description": "一个用于创建jh-vue模板的CLI工具",
+  "main": "bin/cli.js",
+  "bin": {
+    "jh": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "jh-vue",
+    "template"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.5",
+    "ora": "^5.4.1"
+  }
+}
